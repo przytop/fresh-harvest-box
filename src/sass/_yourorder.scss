@@ -15,7 +15,8 @@
   top: 50%;
   left: 50%;
   min-width: 335px;
-  max-height: 903px;
+  max-height: 98vh;
+  overflow-y: auto;
   padding: 20px;
   border-radius: 20px;
   background: var(--white-color);
@@ -116,10 +117,6 @@
   border-radius: 4px;
 }
 
-.checkbox-input {
-  display: none;
-}
-
 .checkbox-icon {
   display: flex;
   align-items: center;
@@ -181,20 +178,14 @@
   border-color: var(--black-color);
 }
 
-.modal-yourorder .modal-submit {
-  border-radius: 100px;
-  padding: 12px 24px;
-  width: 92px;
-  height: 42px;
-  background: #9dc162;
-}
-
 .modal-yourorder .button-submit {
   line-height: 129%;
   letter-spacing: var(--letter-spacing);
   text-transform: capitalize;
-  background: inherit;
   padding: 0;
+  border-radius: 100px;
+  padding: 12px 24px;
+  background: #9dc162;
 }
 
 /* ================================================= TABLET ========================================= */

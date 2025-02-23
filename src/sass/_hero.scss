@@ -54,10 +54,6 @@
   color: inherit;
 }
 
-.hero-shop-link:hover {
-  color: #a4cb66;
-}
-
 .hero-shop-button {
   position: absolute;
   top: 444px;
@@ -78,6 +74,11 @@
   text-shadow: var(--text-shadow);
   transform: rotate(-14deg);
   z-index: 1;
+}
+.hero-shop-button:hover,
+.hero-shop-button:focus,
+.hero-shop-button:active {
+  color: #a4cb66;
 }
 
 .fruit-desc-area {

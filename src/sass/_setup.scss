@@ -7,6 +7,10 @@
   --letter-spacing-smaller: -0.02em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;

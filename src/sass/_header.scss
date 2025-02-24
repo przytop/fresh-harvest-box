@@ -121,11 +121,21 @@
   /* justify-content: space-around; */
 }
 
-.off-screen-menu .link {
+.off-screen-menu-link {
   line-height: 129%;
   letter-spacing: var(--letter-spacing);
   text-align: center;
   color: var(--color-white);
+  font-size: 24px;
+}
+
+.icon-wrap {
+  margin-top: 30px;
+}
+
+.icon-basket-white {
+  width: 48px;
+  height: 48px;
 }
 
 .logo-text {

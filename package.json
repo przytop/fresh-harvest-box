@@ -2,7 +2,7 @@
   "name": "fresh-harvest-box",
   "version": "1.1.0",
   "description": "",
-  "homepage": "https://github.com/przytop/fresh-harvest-box",
+  "homepage": "https://przytop.github.io/fresh-harvest-box/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /fresh-harvest-box/"

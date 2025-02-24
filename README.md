@@ -1,7 +1,7 @@
 # Fresh Harvest Box
 
-Fresh Harvest Box is a **group project**, created as a sample e-commerce website where users can
-order fruit baskets. The site allows browsing the product catalog and placing orders.
+Fresh Harvest Box is a **group project**, developed as a sample e-commerce website that allows users
+to browse a catalog of fruit products and place orders.
 
 ## Technologies Used:
 
@@ -18,13 +18,23 @@ order fruit baskets. The site allows browsing the product catalog and placing or
 
 ## Screenshots
 
-![Homepage](/screenshots/homepage.jpg)
+### Hero
+
+![Hero](/screenshots/hero.jpg)
+
+### How It Works
 
 ![How It Works](/screenshots/how-it-works.jpg)
 
+### Product Catalog
+
 ![Product Catalog](/screenshots/catalog.jpg)
 
+### Shopping Cart
+
 ![Shopping Cart](/screenshots/cart.jpg)
+
+### Subscription
 
 ![Subscription](/screenshots/subscription.jpg)
 

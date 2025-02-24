@@ -1,50 +1,34 @@
-# parcel-project-template
+# Fresh Harvest Box
 
-## Zalezności
+Fresh Harvest Box is a **group project**, created as a sample e-commerce website where users can
+order fruit baskets. The site allows browsing the product catalog and placing orders.
 
-Na komputerze musi być zainstalowana LTS-wersja [Node.js](https://nodejs.org/en/).
+## Technologies Used:
 
-## Przed rozpoczęciem pracy
+- **HTML**: Structure of the website
+- **CSS**: Styling of elements on the page
+- **JavaScript**: Interactive features like adding products to the cart
+- **Parcel**: Bundler for project file compilation
 
-Jeden raz na projekt zainstalować wszystkie zalezności.
+## Features:
 
-```shell
-npm ci
-```
+- Browse various fruit baskets
+- Simple ordering system
+- Responsive design (works across devices)
 
-### Praca
+## Screenshots
 
-Włączyć tryp pracy.
+![Homepage](/screenshots/homepage.jpg)
 
-```shell
-npm run dev
-```
+![How It Works](/screenshots/how-it-works.jpg)
 
-W przeglądarce przejść na [http://localhost:1234](http://localhost:1234).
+![Product Catalog](/screenshots/catalog.jpg)
 
-### Deploy
+![Shopping Cart](/screenshots/cart.jpg)
 
-Kod będzie automatycznie się zbierać i robić deploy aktualnej wersji projektu na GitHub Pages, w
-gałąź `gh-pages`, za kazdym razem jeśli zostaną wprowadzone zmiany w `main`. Na przykład, po
-bezpośrenim push lub po przyjęciu pull-request. Aby to działało musimy w pliku `package.json`
-zmienić pole `homepage` i skrypt `build`, zmieniając `nazwe_uzytkownika` i `nazwe_repozytorium` na
-swoje.
+![Subscription](/screenshots/subscription.jpg)
 
-```json
-"homepage": "https://nazwa_uzytkownika.github.io/nazwa_repozytorium",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /nazwa_repozytorium/"
-},
-```
+## Live Demo:
 
-Po jakimś czasie stronę mozna będzie zobaczyć na zywo pod adresem który jest wpisany w poprawione
-właściwości `homepage`, na przykład
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Pliki i folderzy
-
-- Wszystkie partials plików styłów powinny być w folderze `src/sass` i importować się w
-  `src/sass/main.scss`
-- Zdjęcia dodawajcie w folder `src/images`, przed tym zoptymizujcie te zdjęcia które dodajecie.
-  Program po prostu kopiuje wykorzystane zdjęcia aby system nie musiał optymizować je, bo na słabych
-  komputerach to moze zająć duzo czasu.
+You can view the live version of the website on
+[GitHub Pages](https://przytop.github.io/fresh-harvest-box/).
